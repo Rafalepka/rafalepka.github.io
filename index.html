@@ -5,14 +5,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p>pierwszy paragraf</p>
-    <p>drugi paragraf</p>
-    <p>tada</p>
-    <p>czwarty</p>
-    <p>piaty paragraf</p>
-
-  <a href="http://akademia108.pl">Akademia 108</a>
-
-  
+    <form method="POST" action="http://formspree.io/rafalepka@gmail.com">
+  <label for="email">Email:</label><input type="email" name="email" placeholder="twoj email"><br>
+  <label for="imie">Imie:</label><input name="imie" placeholder="imie"> <br>
+  <label for="nazwisko">Nazwisko:</label><input name="nazwisko" placeholder="nazwisko"> <br>
+  <label for="tel">Telefon:</label><input type="tel" name="usrtel" placeholder="numer telefonu"> <br>
+  <label for="wiadomosc">Wiadomosc:</label><textarea type="wiadomosc" name="wiadomosc" maxlenght="1000"></textarea><br>    
+  <button type="submit">Send</button>
+</form>
 </body>
 </html>
