@@ -13,14 +13,38 @@
   <label for="lname">Nazwisko:</label><br>
   <input type="text" id="lname" name="lname" placeholder="Nazwisko"><br><br>
   
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="Email"><br><br>
+  
   <label for="name">Nr Telefonu:</label><br>
   <input type="tel" name="usrtel" placeholder="Nr telefonu"><br><br>
   
+  <label for="skad jestes">Skąd jesteś ?</label><br/>
+  <select name="miasto" id="miasto">
+  <option value="krakow">Krakow</option>
+  <option value="warszawa">Warszawa</option>
+  <option value="gdansk">Gdansk</option>
+  <option value="kielce">Kielce</option>
+  </select>
+  <br /><br />
+
+  <label for="plec">Podaj swoją płęć</label><br/>
+  <input type="radio" name="Płeć" value="Kobieta" />Kobieta <br/>
+  <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+    <br /><br />
+
+        
+  <p>Czy wyrażasz zgodę na przetważanie swoich danych osobowych na potrzeby szkolenia ?</p>
+        <input type="checkbox" name="zgoda" value="zgoda" /> Wyrażam zgodę <br/><br/><br/>
+
+        
   <label for="name">Wiadomość:</label><br>
-  <textarea name="message" maxlength="1000" placeholder="Your message"></textarea><BR><br>
+  <textarea name="message" cols="50" rows="10" maxlength="1000" placeholder="Your message"></textarea><BR><br>
   
   <button type="submit">Send</button>
-  <input type="submit" value="Wyslij">
+  <input type="reset" value="Wyczyść dane" />
+  
+  
 </form>
 </body>
 </html>
