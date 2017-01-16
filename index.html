@@ -1,50 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Moj Formularz</title>
+    <title>Strona Domowa</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700|Roboto+Slab:100,300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/264c6a713e.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-    <form method="POST" action="https://formspree.io/rafalepka@gmail.com">
- 
-  <label for="name">Imię:</label><br>
-  <input type="text" id="name" name="fname" placeholder="Imię"><br><br>
-  
-  <label for="lname">Nazwisko:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Nazwisko"><br><br>
-  
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="email" placeholder="Email"><br><br>
-  
-  <label for="tel">Nr Telefonu:</label><br>
-  <input type="tel" name="usrtel" placeholder="Nr telefonu"><br><br>
-  
-  <label for="skad jestes">Skąd jesteś ?</label><br/>
-  <select name="miasto" id="miasto">
-  <option value="krakow">Krakow</option>
-  <option value="warszawa">Warszawa</option>
-  <option value="gdansk">Gdansk</option>
-  <option value="kielce">Kielce</option>
-  </select>
-  <br /><br />
+    <!--   nav menu start  -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="main_nav">
+        <div class="container-fluid">
+            <div class="navbar-header col-lg-5">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="container collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav col-lg-6 navbar-center">
+                    <li class="menu-item" id="bs-example-navbar-collapse-1"><a href="#main_header">o nas</a></li>
+                    <li class="menu-item" id="bs-example-navbar-collapse-1"><a href="#info">informacje</a></li>
+                    <li class="menu-item" id="bs-example-navbar-collapse-1"><a href="#training">szkolenia</a></li>
+                    <li class="menu-item" id="bs-example-navbar-collapse-1"><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+        <!-- /.container-fluid -->
+    </nav>
 
-  <label for="plec">Podaj swoją płęć</label><br/>
-  <input type="radio" name="Płeć" value="Kobieta">Kobieta <br/>
-  <input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
-    <br /><br />
+    <!--header on -->
 
-        
-  <p>Czy wyrażasz zgodę na przetważanie swoich danych osobowych na potrzeby szkolenia ?</p>
-        <input type="checkbox" name="zgoda" value="zgoda" /> Wyrażam zgodę <br/><br/><br/>
+    <header id="main_header">
+        <div class="main_header_content">
+            <h1 id="main_header_text">Przykładowy projekt</h1>
+            <h2 id="second_header_text"> front-end developer bootstrap</h2>
+        </div>
+    </header>
+    <!-- header stop-->
+    <!--info section starts-->
+    <section id="info">
+        <div class="container-fluid">
 
-        
-  <label for="message">Wiadomość:</label><br>
-  <textarea name="message" cols="50" rows="10" maxlength="1000" placeholder="Your message"></textarea><BR><br>
-  
-  <button type="submit">Send</button>
-  <input type="reset" value="Wyczyść dane" />
-  
-  
-</form>
+            <h1>Przykładowe informacje o działalności</h1>
+            <article class="info_content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum ligula eget varius pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam a justo lacus. Fusce malesuada non leo a ullamcorper. Suspendisse lorem ipsum, hendrerit non leo vel, fermentum auctor odio. Vestibulum scelerisque lacus et dictum posuere. Donec vestibulum quam rutrum, tempor quam vulputate, fringilla ex. Nulla vel gravida neque. Cras semper eleifend massa vitae dapibus. Phasellus pellentesque, lacus quis fermentum vulputate, justo risus gravida ante, ac tempus orci purus eget dui. Nullam at ultrices turpis. Sed vehicula odio at lacinia venenatis. Nam lacinia enim purus, a lacinia libero gravida vel. Donec pretium suscipit lorem fringilla aliquam. Nam eget eros et elit elementum imperdiet. Nulla porttitor turpis sed lacinia semper. Mauris viverra diam id nunc lobortis, sed ornare mi tincidunt. Vestibulum feugiat cursus tempor. Aenean suscipit posuere blandit. Aenean facilisis lorem ac nisl sodales, vitae pellentesque velit euismod. In dapibus viverra ullamcorper. Sed sodales, massa ac cursus vehicula, quam mi fermentum dolor, vitae mollis nunc justo quis augue. Integer ut gravida diam. Cras congue nisi vel lorem rutrum ullamcorper. Ut non volutpat dui. Ut auctor, risus nec interdum laoreet, diam nisi semper turpis, vel condimentum.
+            </article>
+        </div>
+    </section>
+    <!--info section stop-->
+
+    <!--galery section start -->
+
+    <section id="training">
+        <div class="container-fluid">
+
+            <div class="row">
+                <h1>Oferta szkoleniowa</h1>
+            </div>
+            <div class="row">
+                <h2>Tu znajduja się informacje dotyczące oferowanych przez nas szkoleń.</h2>
+            </div>
+
+            <div class="first-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="first-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="first-training-item-text text-center">
+
+                        <h4>Szkolenia samolotowe</h4>
+                        <h2>Tu znajduje się informacje o szkoleniach samolotowych</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="second-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="second-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="second-training-item-text ">
+
+                        <h4>Szkolenie smigłowcowe</h4>
+                        <h2>Tu znajdują się informacje o szkoleniach śmigłowcowych</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="third-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="third-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="third-training-item-text text-center">
+
+                        <h4>Szkolenia szybowcowe</h4>
+                        <h2>Tu znajdują się informację o szkoleniach szybowcowych</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="four-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="four-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="four-training-item-text text-center">
+
+                        <h4>Szkolenia samolotowe ULM</h4>
+                        <h2>Tu znajdują się informacje o szkoleniach samolotowych ULM</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="fifth-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="fifth-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="fifth-training-item-text text-center">
+
+                        <h4>Szkolenia spadochronowe</h4>
+                        <h2>Tu znajdują się informacje o szkoleniach spadochronowych</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="six-training-item col-md-4 col-sm-6">
+                <div class="single-training-item" id="six-training-item-photo">
+                    <div class="training-image-mask">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="training-item-background">
+                    <div class="text-design" class="six-training-item-text text-center">
+
+                        <h4>Szkolenia motolotniowe</h4>
+                        <h2>Tu znajdują się informacje o szkoleniach motolotniowych</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--info stop -->
+
+    <!--kontakt section start-->
+    <section id="contact">
+        <div class="container">
+            <div class="row contact_form_info">
+                <h1 class="contact-info">CONTACT US</h1>
+                <h2 class="contact-info">Praesentium voluptatum delenti atque corrupti</h2>
+            </div>
+            <div class="row contact_form_details">
+                <div id="contact_form" class='col-md-6'>
+
+                    <form action="">
+                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </br>
+                        <input type="text" class="form-control" id="email" placeholder="Enter email">
+                        </br>
+                        <input type="text" class="form-control" id="phone" placeholder="Your Phone">
+                    </form>
+
+                </div>
+                <div class="contact-form-msg col-md-6">
+                    <textarea maxlength="1200" class="form-control" name="message" id="text_area" rows="6"></textarea>
+                </div>
+            </div>
+            </br>
+            <button class="btn btn-primary center-block">SEND MESSAGE!</button>
+        </div>
+    </section>
+    <!--    kontakt section stop-->
+    <!--footer ssection start-->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="copyrights col-md-4 col-lg-4">
+                    <h5>Copyrights&copy; Rafał Matałowski</h5>
+                </div>
+                <div class="footer-social-media-icons  col-lg-4 col-md-4">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <div class="terms-conditions col-lg-4 col-md-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--    footer section stop-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+
 </body>
+
+
 </html>

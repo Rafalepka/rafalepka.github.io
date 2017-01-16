@@ -1,0 +1,34 @@
+@media all and (max-width: 980px) {
+     #contact .contact-form-msg {
+         margin-top: 20px;
+     }
+}
+
+@media all and (max-width: 768px) {
+    #main_nav .navbar-nav a {
+        width: 75vw;
+
+    }
+    
+    #info .info_text_main {
+        font-size: 3vh;
+    }
+    
+    #info .info_content {
+        font-size: 2vh;
+    }
+    
+    #gallery .slide-show {
+        height: 50%;
+        width: 50%;
+    }
+    
+    #gallery #slider {
+        height: 200vw;
+    }
+    
+    #gallery h1 {
+        font-size: 3vh;
+    }
+    
+}
