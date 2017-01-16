@@ -4,10 +4,18 @@
      }
 }
 
-@media all and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    
+    #main_nav ul li a {
+        font-size: 5vh;
+    }
+    
     #main_nav .navbar-nav a {
-        width: 90vw;
-
+        width: 90vh;
+    }
+    
+    #main_nav .navbar-collapse ul li a {
+        font-size: 15px;
     }
     
     #info .info_text_main {
@@ -15,7 +23,7 @@
     }
     
     #info .info_content {
-        font-size: 2vh;
+        font-size: 3vh;
     }
     
     #gallery .slide-show {
