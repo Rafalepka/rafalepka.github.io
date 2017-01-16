@@ -21,8 +21,7 @@ h1 {
     color: #333;
 }
 
-h2,
-h3 {
+h2 {
     text-align: center;
     font-size: 15px;
     font-weight: 300;
@@ -30,6 +29,14 @@ h3 {
     color: #777;
     font-family: 'Roboto Slab', serif;
     font-style: italic;
+}
+
+h3 {
+    font-size: 1.5vw;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .btn-primary {
@@ -134,14 +141,6 @@ main_nav .navbar-brand {
     margin-bottom: 50px;
 }
 
-#info .info_content {
-    font-size: 4vh;
-    color: black;
-    font-family: 'Roboto Slab', serif;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 
 /*info stop */
 
@@ -199,17 +198,14 @@ main_nav .navbar-brand {
     height: 100px;
 }
 
-
 #training .text-design {
     transform: translateY(25%);
 }
-
 
 #training .text-design h2 {
     padding: 0px;
     margin: 10px;
 }
-
 
 #training .text-design h4 {
     margin: 0px;
@@ -235,7 +231,6 @@ main_nav .navbar-brand {
     color: #ffffff;
     position: relative;
 }
-
 
 
 /*traning stop */
@@ -265,6 +260,7 @@ input#phone.form-control {
 #contact .contact-form-info {
     margin-top: inherit;
 }
+
 
 /*contact style off*/
 
