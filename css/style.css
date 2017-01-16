@@ -116,7 +116,7 @@ main_nav .navbar-brand {
 
 .main_header_content #main_header_text {
     text-transform: capitalize;
-    font-size: 4vh;
+    font-size: 3vh;
     color: white;
     font-weight: 400;
     margin-bottom: 30px;
@@ -125,7 +125,7 @@ main_nav .navbar-brand {
 .main_header_content #second_header_text {
     color: white;
     text-transform: uppercase;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 900;
     margin: 0;
 }
