@@ -1,10 +1,30 @@
-@media all and (max-width: 980px) {
+ @media all and (max-width: 980px) {
      #contact .contact-form-msg {
          margin-top: 20px;
      }
-}
+     #main_nav {
+         background-color: white;   
+     }
+     
+     #main_nav .navbar-brand {
+         color: black;
+     }
+     
+     #main_nav .navbar-nav a {
+         color: black;
+         width: 10vh;
+     }
+     
+     #main_nav .navbar-nav a:hover {
+         color: orange;
+     }
+ }
 
-@media screen and (min-width: 200px) and (max-width: 768px) {
+@media all and (min-width: 200px) and (max-width: 768px) {
+    
+    h1 {
+        font-size: 4vh;
+    }
     
     #main_nav ul li a {
         font-size: 5vh;
@@ -12,10 +32,6 @@
     
     #main_nav .navbar-nav a {
         width: 90vh;
-    }
-    
-    #main_nav .navbar-collapse ul li a {
-        font-size: 15px;
     }
     
     #info .info_text_main {
