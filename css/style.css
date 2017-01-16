@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: black;
     font-family: 'Roboto Slab', serif;
     text-align: justify;
@@ -116,7 +116,7 @@ main_nav .navbar-brand {
 
 .main_header_content #main_header_text {
     text-transform: capitalize;
-    font-size: 5vh;
+    font-size: 4vh;
     color: white;
     font-weight: 400;
     margin-bottom: 30px;
@@ -125,7 +125,7 @@ main_nav .navbar-brand {
 .main_header_content #second_header_text {
     color: white;
     text-transform: uppercase;
-    font-size: 6vh;
+    font-size: 5vh;
     font-weight: 900;
     margin: 0;
 }
@@ -138,6 +138,9 @@ main_nav .navbar-brand {
 
 #info h1 {
     margin-bottom: 50px;
+}
+#info #info_content {
+    font-size: 4vh;
 }
 
 
