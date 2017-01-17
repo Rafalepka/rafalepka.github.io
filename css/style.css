@@ -107,7 +107,7 @@ main_nav .navbar-brand {
 /*header */
 
 #main_header {
-    background-image: url('../img/header/samolot.jpg');
+    background-image: url('../img/header/samolot1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,13 +130,13 @@ main_nav .navbar-brand {
 .main_header_content #main_header_text {
     text-transform: capitalize;
     font-size: 3vw;
-    color: white;
+    color: #F6FF80;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
 .main_header_content #second_header_text {
-    color: white;
+    color: #F6FF80;
     text-transform: uppercase;
     font-size: 4vw;
     font-weight: 900;
