@@ -120,7 +120,7 @@ main_nav .navbar-brand {
 .main_header_content {
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 80%;
     transform: translateY(-50%);
     right: 0;
     left: 0;
@@ -128,19 +128,22 @@ main_nav .navbar-brand {
 }
 
 .main_header_content #main_header_text {
+    text-align: right;
+    margin-right: 20px;
     text-transform: capitalize;
-    font-size: 3vw;
+    font-size: 1.6vw;
     color: #F6FF80;
     font-weight: 400;
-    margin-bottom: 30px;
+    
 }
 
 .main_header_content #second_header_text {
+    text-align: right;
+    margin-right: 20px;
     color: #F6FF80;
     text-transform: uppercase;
-    font-size: 4vw;
+    font-size: 2vw;
     font-weight: 900;
-    margin-top: 300px;
 }
 
 
