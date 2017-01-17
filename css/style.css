@@ -103,7 +103,7 @@ main_nav .navbar-brand {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-height: 700px;
+    max-height: 800px;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -186,9 +186,17 @@ main_nav .navbar-brand {
     background-image: url('../img/gallery/slide6.jpg');
 }
 
+#training .row > h1 {
+    margin-top: 10px;
+}
 #training #text-design {
     margin-top: -10px;
     vertical-align: middle;
+}
+
+#training .row > p {
+    font-size: 1.2vw;
+    margin-bottom: 20px;
 }
 
 #training .single-training-item {
@@ -218,6 +226,7 @@ main_nav .navbar-brand {
 }
 
 #training .text-design h4 {
+    transform: translateY(150%);
     margin: 0px;
     padding: 0px;
 }
@@ -245,6 +254,11 @@ main_nav .navbar-brand {
 
 /*traning stop */
 
+#contact h2.contact-info {
+    font-size: 1.3vw;
+    font-style: normal;
+}
+
 #contact .contact_form_info h1.contact-info {
     margin-top: 15%;
 }
@@ -270,7 +284,6 @@ input#phone.form-control {
 #contact .contact-form-info {
     margin-top: inherit;
 }
-
 
 /*contact style off*/
 
